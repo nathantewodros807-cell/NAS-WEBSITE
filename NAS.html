@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NAS Digital Marketing Agency</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#050b18;
+    color:white;
+}
+
+header{
+    position:fixed;
+    width:100%;
+    top:0;
+    z-index:1000;
+    background:rgba(0,0,0,0.7);
+    backdrop-filter:blur(10px);
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+}
+
+.logo{
+    font-size:2rem;
+    font-weight:800;
+}
+
+.logo span{
+    color:#008cff;
+}
+
+.nav-links{
+    display:flex;
+    gap:30px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#008cff;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:120px 8%;
+    background:
+    linear-gradient(to right,#050b18,#091a3a);
+}
+
+.hero-text{
+    max-width:600px;
+}
+
+.hero-text h1{
+    font-size:4rem;
+    line-height:1.1;
+}
+
+.hero-text span{
+    color:#008cff;
+}
+
+.hero-text p{
+    margin:25px 0;
+    color:#cfcfcf;
+}
+
+.btn{
+    display:inline-block;
+    padding:15px 35px;
+    background:#008cff;
+    color:white;
+    text-decoration:none;
+    border-radius:50px;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+.hero-image{
+    width:450px;
+    height:450px;
+    border-radius:50%;
+    background:linear-gradient(45deg,#008cff,#00d4ff);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:6rem;
+    font-weight:800;
+}
+
+section{
+    padding:100px 8%;
+}
+
+.section-title{
+    text-align:center;
+    font-size:2.5rem;
+    margin-bottom:50px;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#0d1528;
+    border:1px solid rgba(255,255,255,0.08);
+    padding:30px;
+    border-radius:20px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    border-color:#008cff;
+}
+
+.card h3{
+    margin-bottom:15px;
+}
+
+.about{
+    text-align:center;
+    max-width:900px;
+    margin:auto;
+}
+
+.stats{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.stat{
+    background:#0d1528;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+}
+
+.stat h2{
+    color:#008cff;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact-box{
+    background:#0d1528;
+    max-width:800px;
+    margin:auto;
+    padding:40px;
+    border-radius:20px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    border-top:1px solid rgba(255,255,255,0.1);
+}
+
+@media(max-width:900px){
+
+.hero{
+    flex-direction:column;
+    text-align:center;
+    gap:50px;
+}
+
+.hero-text h1{
+    font-size:3rem;
+}
+
+.hero-image{
+    width:280px;
+    height:280px;
+    font-size:4rem;
+}
+
+.stats{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.nav-links{
+    display:none;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">NA<span>S</span></div>
+
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+</header>
+
+<section class="hero">
+
+    <div class="hero-text">
+        <h1>We Create.<br>We Elevate.<br><span>We Grow Brands.</span></h1>
+
+        <p>
+            NAS Digital Marketing Agency helps businesses grow through
+            social media marketing, graphic design, content creation,
+            photography, videography, and branding solutions.
+        </p>
+
+        <a href="#contact" class="btn">Get Started</a>
+    </div>
+
+    <div class="hero-image">
+        NAS
+    </div>
+
+</section>
+
+<section>
+
+    <div class="stats">
+
+        <div class="stat">
+            <h2>2026</h2>
+            <p>Founded</p>
+        </div>
+<div class="stat">
+            <h2>6+</h2>
+            <p>Core Services</p>
+        </div>
+
+        <div class="stat">
+            <h2>100%</h2>
+            <p>Dedication</p>
+        </div>
+
+        <div class="stat">
+            <h2>24/7</h2>
+            <p>Support</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="about">
+
+    <h2 class="section-title">About NAS</h2>
+
+    <div class="about">
+
+        <p>
+            NAS Digital Marketing Agency was founded by
+            Nathan, Alula, and Samuel in 2026.
+            Our mission is to help businesses build strong brands
+            through creativity, strategy, and high-quality content.
+        </p>
+
+    </div>
+
+</section>
+
+<section id="services">
+
+    <h2 class="section-title">Our Services</h2>
+
+    <div class="services">
+
+        <div class="card">
+            <h3>Social Media Marketing</h3>
+            <p>Build engagement and grow your audience.</p>
+        </div>
+
+        <div class="card">
+            <h3>Graphic Design</h3>
+            <p>Professional branding and visual identity.</p>
+        </div>
+
+        <div class="card">
+            <h3>Content Creation</h3>
+            <p>Creative content that drives results.</p>
+        </div>
+
+        <div class="card">
+            <h3>Photography</h3>
+            <p>Professional photography services.</p>
+        </div>
+
+        <div class="card">
+            <h3>Videography</h3>
+            <p>High-quality camera work and editing.</p>
+        </div>
+
+        <div class="card">
+            <h3>Brand Strategy</h3>
+            <p>Build a powerful and memorable brand.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contact">
+
+    <h2 class="section-title">Contact Us</h2>
+
+    <div class="contact-box">
+
+        <p><strong>Location:</strong> Megenagna, Addis Ababa</p>
+        <br>
+
+        <p><strong>Phone:</strong></p>
+        <p>+251 98 455 6020</p>
+        <p>+251 92 762 4580</p>
+        <p>+251 94 039 1371</p>
+
+        <br>
+
+        <p><strong>contact us if you are interested:</strong> </p>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <h3>NAS Digital Marketing Agency</h3>
+    <p>Creating Content. Building Brands. Driving Results.</p>
+    <br>
+    <p>© 2026 NAS. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
